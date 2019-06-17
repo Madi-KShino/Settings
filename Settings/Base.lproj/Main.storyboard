@@ -42,6 +42,9 @@
                                                 </label>
                                                 <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ARh-1z-TZH">
                                                     <rect key="frame" x="259" y="0.0" width="51" height="31"/>
+                                                    <connections>
+                                                        <action selector="settingCellToggled:" destination="Fkw-PK-sEK" eventType="valueChanged" id="QXI-JP-zZG"/>
+                                                    </connections>
                                                 </switch>
                                             </subviews>
                                         </stackView>
